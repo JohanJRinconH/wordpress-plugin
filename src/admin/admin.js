@@ -7,6 +7,7 @@ import Settings from './components/pages/Settings.vue'
 import TabNavigation from './components/tabs/Navigation.vue'
 import GeneralTab from './components/tabs/GeneralTab.vue'
 import AnotherTab from './components/tabs/AnotherTab.vue'
+import IndicatorTab from './components/tabs/IndicatorTab.vue'
 import VueRouter from 'vue-router'
 
 Vue.use( Vuex )
@@ -18,6 +19,9 @@ const routes = [
     },
     {
         path: '/another', components: { default: AnotherTab, tab: TabNavigation },
+    },
+    {
+        path: '/indicator', components: { default: IndicatorTab, tab: TabNavigation },
     },
     {
         path: '/settings', components: { default: Settings },

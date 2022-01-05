@@ -8,6 +8,7 @@
 .tab-menu li {
   display: inline-block;
   background-color: #fff;
+  border-radius: 5px 5px 0 0;
 }
 
 .tab-menu li a {
@@ -27,7 +28,6 @@
 .tab-menu li a:focus,
 .tab-menu li a:active {
   outline: 0;
-  border: 0;
   box-shadow: none;
 }
 

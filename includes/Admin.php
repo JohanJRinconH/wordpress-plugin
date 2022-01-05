@@ -54,8 +54,8 @@ class Admin {
         $slug       = 'wp-vue-kickstart';
 
         $hook = add_menu_page(
-            __( 'WP Vue Kickstart', 'textdomain' ),
-            __( 'WP Vue Kickstart', 'textdomain' ),
+            __( 'WP Vue JRincon', 'textdomain' ),
+            __( 'WP Vue JRincon', 'textdomain' ),
             $capability,
             $slug,
             [ $this, 'menu_page_template' ],
@@ -63,7 +63,7 @@ class Admin {
         );
 
         if( current_user_can( $capability )  ) {
-            $submenu[ $slug ][] = [ __( 'Kickstart', 'textdomain' ), $capability, 'admin.php?page=' . $slug . '#/' ];
+            $submenu[ $slug ][] = [ __( 'Main', 'textdomain' ), $capability, 'admin.php?page=' . $slug . '#/' ];
             $submenu[ $slug ][] = [ __( 'Settings', 'textdomain' ), $capability, 'admin.php?page=' . $slug . '#/settings' ];
         }
 

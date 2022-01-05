@@ -1,11 +1,11 @@
 
 {
-    "name": "rabiul/wp-vue-kickstart",
+    "name": "jrincon/wp-vue-kickstart",
     "description": "An WordPress plugin starter with Vue Js.",
     "authors": [
         {
-            "name": "MD. Rabiul Islam Robi",
-            "email": "robizmailbox@gmail.com"
+            "name": "Johan Rincon",
+            "email": "johan.gtr@gmail.com"
         }
     ],
     "require": {},

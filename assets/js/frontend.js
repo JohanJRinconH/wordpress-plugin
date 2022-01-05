@@ -18,7 +18,7 @@ eval("console.log('hello from front app js');//# sourceURL=[module]\n//# sourceM
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__(/*! C:\Users\ASUS\Local Sites\wpdev\app\public\wp-content\plugins\wp-vue-kickstart\src\frontend\frontend.js */"./src/frontend/frontend.js");
+module.exports = __webpack_require__(/*! /Users/johanjrinconh/Documents/MAMP/htdocs/wordpress-plugin/wp-content/plugins/wp-vue-jrincon/src/frontend/frontend.js */"./src/frontend/frontend.js");
 
 
 /***/ })

@@ -2,6 +2,7 @@
     <ul class="tab-menu">
         <li><router-link to="/">General</router-link></li>
         <li><router-link to="/another">Another Tab</router-link></li>
+        <li><router-link to="/indicator">Indicator Tab</router-link></li>
     </ul>
 </template>
 

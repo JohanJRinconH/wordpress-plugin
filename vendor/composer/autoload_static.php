@@ -36,10 +36,7 @@ class ComposerStaticInite0fd93276d74ff75e6985abf85e86bf3
     );
 
     public static $classMap = array (
-        'WPVK\\Api\\Api' => __DIR__ . '/../..' . '/api/Api.php',
-        'WPVK\\Includes\\Admin' => __DIR__ . '/../..' . '/includes/Admin.php',
-        'WPVK\\Includes\\Assets' => __DIR__ . '/../..' . '/includes/Assets.php',
-        'WPVK\\Includes\\Frontend' => __DIR__ . '/../..' . '/includes/Frontend.php',
+        'Composer\\InstalledVersions' => __DIR__ . '/..' . '/composer/InstalledVersions.php',
     );
 
     public static function getInitializer(ClassLoader $loader)
